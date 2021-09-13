@@ -21,15 +21,14 @@
   <!-- main start -->
   <main class="main">
     <!-- search section -->
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-    </div>
+    <form class="search-field col-md-6 m-auto py-5">
+        <div class="search-box input-group mb-3">
+          <input id="input-field" type="text" class="search-field form-control" placeholder="Enter a product name ...">
+            <div class="input-group-append">
+                <button onclick="loadProducts()" type="button" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
 
     <div class="row">
       <!-- card section -->

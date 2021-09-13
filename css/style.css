@@ -13,11 +13,10 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  border: 1px solid #0376d3;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   border-right: none;
 }
 .search-button {
