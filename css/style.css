@@ -24,9 +24,13 @@ body {
   border-radius: 25px;
   margin-left: 20px;
 }
+.background{
+  background-color: #dfecee;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
