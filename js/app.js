@@ -18,7 +18,7 @@ const showProducts = (products) => {
       <div>
     <img class="product-image" src="${product.image}"></img>
       </div>
-      <h4>${product.title}</h4>
+      <h4>${product.title.slice(0, 50)}</h4>
       <p>Category: ${product.category}</p>
       <h6>Rating: ${product.rating.rate}</h6>
       <p>Sold out: ${product.rating.count}</p>
@@ -54,7 +54,7 @@ const updatePrice = (id, value) => {
 
 // set innerText function
 const setInnerText = (id, value) => {
-  document.getElementById(id).innerText = Math.round(value);
+  document.getElementById(id).innerText = Math.abs(value.toFixed(2));
 };
 
 // update delivery charge and total Tax
