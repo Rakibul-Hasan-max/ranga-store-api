@@ -26,6 +26,7 @@ body {
 }
 .background{
   background-color: #dfecee;
+  height: 530px;
 }
 #all-products {
   display: grid;
